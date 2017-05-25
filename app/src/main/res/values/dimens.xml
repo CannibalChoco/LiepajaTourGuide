@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Height and of word -->
+    <dimen name="main_layout_item_border">8dp</dimen>
+
+</resources>

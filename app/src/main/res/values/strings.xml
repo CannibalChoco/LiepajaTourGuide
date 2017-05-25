@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Liepaja Tour Guide</string>
+    <string name="category_classics">Classics</string>
+    <string name="category_active_leisure">Active Leisure</string>
+    <string name="category_nature">Nature</string>
+    <string name="category_hotels">Hotels</string>
+    <string name="category_dining">Dining</string>
+</resources>
