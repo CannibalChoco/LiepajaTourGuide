@@ -5,4 +5,27 @@
     <string name="category_nature">Nature</string>
     <string name="category_hotels">Hotels</string>
     <string name="category_dining">Dining</string>
+
+    <!-- Active Leisure -->
+    <string name="tarzan">Tarzan\'s Obstacle Park</string>
+    <string name="tarzan_description">Tarzan\'s Obstacle Park consists of 5 tracks and 76 different obstacles placed in trees up to 15 meters above the ground.
+        \It will be interesting for both children and adults, since the tracks are tailored to different interests.</string>
+    <string name="karosta_prison">Beberlini</string>
+    <string name="karosta_prison_description"></string>
+
+
+    <!-- Classics -->
+
+
+
+    <!-- Nature -->
+
+
+
+    <!-- Dining -->
+
+
+
+    <!-- Hotels -->
+
 </resources>
