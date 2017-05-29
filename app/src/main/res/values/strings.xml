@@ -126,9 +126,96 @@
         and its surrounding area from the Stone Age to the early 20th century. The museum also has
         on display an exposition dedicated to a wood carver Miķelis Pankoks (1894-1983) and two
         exhibition halls.</string>
-    <!-- Dining -->
 
+
+    <!-- Dining -->
+    <string name="reastaurant_piano">Piano</string>
+    <string name="reastaurant_piano_description">The award-winning hotel restaurant Piano offers
+        gourmet cuisine using organic products and its specialties: home-made fresh bread and ice
+        cream. For an instant cultural experience you may enjoy exhibitions in the hotel art gallery
+        Promenade, or watch the bright white sails go by during summer yacht regattas hosted by
+        Liepaja Yacht Center right in front of the hotel.</string>
+    <string name="house_of_food">House of Food</string>
+    <string name="house_of_food_description">House Of Food is a place to eat good, quick international
+        food from all corners of the world (please view the full menu below). Louie Fontaine, the
+        owner and rock musician, has designed the place with a feel similar to a 50’s American
+        diner, with an open kitchen and restaurant booths so high you’ll sit cosy and private in your
+        own restaurant.</string>
+    <string name="restaurant_libava">Libava</string>
+    <string name="restaurant_libava_description">The restaurant Libava is located in an exclusive place
+        on the bank of the Liepāja Trade Canal  in Recreational Centre “Libava” building. The restaurant
+        Libava offers excellent cuisine with a vast selection of fish dishes and exquisite meat
+        dishes, business lunch every weekday,  menu selected according to your needs for events
+        organised at the recreational centre.</string>
+    <string name="restaurant_oskars">Oskars</string>
+    <string name="restaurant_oskars_description">One of the best restaurants in the city, located in
+        Europa City Amrita Hotel</string>
+    <string name="restaurant_upe">Upe</string>
+    <string name="restaurant_upe_description">The restaurant is known for it\'s international cuisine
+        and friendly service. Every customer that comes through the restaurant door is either a
+        friend or will become one. Either its a quick lunch in the middle of your day, or a leisure
+        evening with your friends while drinking wine - "Upe" will always guarantee the appropriate
+        atmosphere and service.</string>
+    <string name="restaurant_pastnieka_maja">Pastnieka Māja</string>
+    <string name="restaurant_pastnieka_maja_description">This restaurant - separated from passing
+        trams, cars and the hustle of pedestrians by a transparent glass wall - is located in the
+        heart of Liepāja. The glass creates the feeling that the days hustle and reality is somehow
+        remote and unreal, allowing guests to enjoy their break while sitting in the summer garden
+        or calmly peering out through the windows.</string>
+    <string name="restaurant_olive">Olive</string>
+    <string name="restaurant_olive_description">Restaurant "Olive" offers a various choice of menu
+        from cold snack and salads, meat and fish courses, pastas, pizzas, and also a variety of
+        sushi. Kids menu is available as well. Open type kitchen gives you theclose insight into
+        the process of cooking and the professional work of our chefs’ team.</string>
 
     <!-- Hotels -->
-
+    <string name="promenade_hotel">Promenade Hotel</string>
+    <string name="promenade_hotel_description">This old port warehouse stores the memories of a 200
+        years long history and you may find a glimpse of it in every of the 50 guest rooms. The
+        individual design of each room will preserve the magic of discovering something new every
+        time you visit Promenade Hotel! Enjoy a sauna in the room, soft bathrobe and slippers or
+        celebrate special moments at the marvelous banquet rooms!</string>
+    <string name="fontaine_royal">Fontaine Royal</string>
+    <string name="fontaine_royal_description">The hotel design is out of this world, full of royal furniture, all
+        gold plated standing in contrast with the old factory spirit, you will feel like a king
+        staying at the Fontaine Royal. The hotel has a music club in an old warehouse,
+        (Fontaine Palace, capacity 600 people), offering live bands from around the globe.</string>
+    <string name="hotel_libava">Libava</string>
+    <string name="hotel_libava_description">The recreational centre Libava offers its guests seven hotel rooms
+        equipped with modern amenities. Each room has a different design and interior. Guests also
+        have the opportunity to enjoy a leisurely breakfast and romantic candlelight dinner in the
+        winter garden with palm-trees and a fountain.</string>
+    <string name="hotel_amrita">Europa City Amrita</string>
+    <string name="hotel_amrita_description">You\'ll find here 83 comfortable rooms designed in a cosy
+        Scandinavian style. Hotel offers a choice of room types  from single accommodation to luxury
+        two room suites with steam saunas. Presidential suites located on two floors will surprise
+        you with panoramic view over the town. 8 rooms are specially equipped for wheel chair users.</string>
+    <string name="hotel_liva">Līva</string>
+    <string name="hotel_liva_description">The hotel offers 115 guest rooms of different categories,
+        a restaurant, bar and conference hall, as well as a parking lot under security surveillance.
+        To preserve the competitiveness and meet best standards of hospitality renovation works are
+        carried out on regular basis.</string>
+    <string name="hotel_roze">Roze</string>
+    <string name="hotel_roze_description">The guesthouse Roze is a little star on the shore of the
+        Baltic Sea. The atmosphere of Jugendstil has been created in the
+        antique detached house. Furniture, pictures, restaurant-bar, tea room and winter garden -
+        everything holds the atmosphere of the time and style of the beginning of the 20th century.</string>
+    <string name="hotel_fontaine">Fontaine Hotel</string>
+    <string name="hotel_fontaine_description">The Hotel is located on a small cobblestone street,
+        towards the canal, 500 m from the beach, with a nice backyard.  Hotel can accommodate 44
+        people in 18 different rooms. Each room has its own design and charm, a true adventure.
+        Guests can oder breakfast.</string>
+    <string name="hotel_vilhelmine">Vilhelmīne</string>
+    <string name="hotel_vilhelmine_description">There are 3 floors with 10 rooms. All rooms are
+        large, bright and cosy with obsolete, old, and at the same time, modern atmosphere. Mansard
+        floor has 2 minilux rooms with nice view to the old city. There are preserved old wooden
+        beams and other antique elements on the mansard floor.</string>
+    <string name="hotel_ezera_maja">Ezera Māja</string>
+    <string name="hotel_ezera_maja_description">Ezera Maja is situated on the street that connects
+        the Baltic sea and Liepaja\'s lake.This 100 year old house has been completely renovated and
+        offers you all of the comforts. At the same time we have kept its old, homely, Latvian spirit.
+        You will be enchanted by the decor of each of the rooms in Ezera Maja. Even the tiniest detail
+        has been made with the special love of an artist’s hand. The rooms are equipped using natural
+        local materials, keeping the ancient feel of the house.</string>
+    
 </resources>
