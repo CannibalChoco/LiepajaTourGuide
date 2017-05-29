@@ -42,12 +42,38 @@
         Boarding at the yacht port in Liepāja promenade. Fishing in the sea and long boat trips.</string>
 
 
-    <!-- Classics -->
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
-    <string name=""></string>
     <!-- Nature -->
+    <string name="liepaja_lake">Liepaja Lake</string>
+    <string name="liepaja_lake_description">A lagoon-type lake that was formed with the retreat of
+        the Baltic Sea. An important waterfowl nesting and transit place during migration periods.
+        During the nesting period many bird species that are threatened in Europe find their shelter
+        here. The lake and its surrounding meadows are a nature reserve area. There are two bird
+        watching towers one the lake.</string>
+    <string name="liepaja_beach">Liepaja Beach</string>
+    <string name="liepaja_beach_description">The beach is 50 to 80 m wide when the wind is calm, and
+        it has white fine sand which amazes even those who have been to the world\'s most famous
+        beach resorts. After a strong wind you can find some pieces of amber washed ashore. \n
+        Liepāja has a first beach in Latvia, adjusted for people with special needs.</string>
+    <string name="seaside_park">Seaside Park</string>
+    <string name="seaside_park_description">Liepaja is very proud of the park. It was developed at
+        the end of the 19th century. The park is 3 km long with a total area of 70 ha and is one of
+        the largest planted parks in Latvia. It is the home of Latvias largest drums, nouveau
+        fountain, The Swan Pond, Monument for sailors and fishermen lost at sea, children
+        playground and much more.</string>
+    <string name="raina_park">Raina Park</string>
+    <string name="raina_park_description">This is a landscape park, developed at the 19th century.
+        Also has a children playground</string>
+    <string name="southern_breakwater">Sauthern Breakwater</string>
+    <string name="southern_breakwater_description">When having a walk on the beach, supplement it
+    with a sightseeing on the Sauthern Breakwater for even nicer memories.</string>
+    <string name="northern_breakwater">Northern Breakwater</string>
+    <string name="northern_breakwater_description">1800 meters long, this breakwater is a famous
+        place for the locals to enjoy the beaty of nature during storms.</string>
+    <string name="seaside_park_velo_track">Seaside Velo-track</string>
+    <string name="seaside_park_velo_track_description">The Seaside Velo-track is a beautiful place
+        in Liepaja for bike rides and strolls. You\'ll wish you could take the pine and sea smell
+        with you!</string>
+    <!-- Classics -->
 
 
     <!-- Dining -->
