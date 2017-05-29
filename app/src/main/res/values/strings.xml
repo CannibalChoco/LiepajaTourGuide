@@ -41,7 +41,6 @@
     <string name="ship_and_catamaran_rent_description">Boat trips in Liepāja port area and the sea.
         Boarding at the yacht port in Liepāja promenade. Fishing in the sea and long boat trips.</string>
 
-
     <!-- Nature -->
     <string name="liepaja_lake">Liepaja Lake</string>
     <string name="liepaja_lake_description">A lagoon-type lake that was formed with the retreat of
@@ -73,9 +72,60 @@
     <string name="seaside_park_velo_track_description">The Seaside Velo-track is a beautiful place
         in Liepaja for bike rides and strolls. You\'ll wish you could take the pine and sea smell
         with you!</string>
+
     <!-- Classics -->
-
-
+    <string name="great_amber">Concert Hall Great Amber</string>
+    <string name="great_amber_description">The new concert hall Great Amber is a regional centre of
+        culture and events, home to the Liepaja Symphony Orchestra, Liepaja Music, Art and Design
+        High School, as well as the concert hall’s manager and event producer - LLC Great Amber.
+    Its acoustics have been created by world leaders in their fields – Prof. Karlheinz Müller of
+        Müller BBM, Germany, and Prof. Christian Bartenbach of Bartenbach, Germany, respectively.</string>
+    <string name="musicians_alley">The Latvian Musicians Alley</string>
+    <string name="musicians_alley_description">The Latvian Musicians Alley of Fame was opened in
+        2006, with its 40 bronze plaques each with handprints of musicians, 12 plaques honoring
+        current and former music bands, and 5 plaques dedicated to musicians who are not with us
+        any more.</string>
+    <string name="rose_square">Rose Square</string>
+    <string name="rose_square_description">The heart of Liepāja is its Rose Square, located in the heart of the city
+        centre. In 1910, city authorities decided to construct a public rosegarden. Hence, in 1911
+        the square was given the name Rose Square, its name to this day. The coats of arms of
+        Liepāja\'s sister cities are placed on the edging around the bed of roses.</string>
+    <string name="anthem_characters">Sculptures of Liepāja Anthem Characters</string>
+    <string name="anthem_characters_description">The song is frozen in bronze and yet it can be
+        heard. Everyone walking towards the sea along Kūrmājas prospekts will be followed by a gaze
+        of curious crow, a boatman known also as a coffin-maker, a telephone technician climbed on a
+        pole, and a crouching forest of people… “Pilsētā, kurā piedzimst vējš…” (City where the wind
+        is born) is a song of particular importance for the residents of Liepāja.</string>
+    <string name="applied_arts_center">Applied Arts Centre</string>
+    <string name="applied_arts_center_description">In Applied Arts Centre you can meet the masters of Applied Arts Studio "Kursa",
+        "Liepava" and "Zītars" which manage our immaterial cultural heritage. Weavers, knitters and
+        amber jewelery makers demonstrate their skills and organize workshops to teach applied arts
+        skills.</string>
+    <string name="house_of_craftsmen">The House of Craftsmen</string>
+    <string name="house_of_craftsmen_description">The House of Craftsmen offers to view and try out the wide variety of Latvian
+        traditional crafts – amber processing, weaving, minting of coins, making jewellery and
+        pottery, as well as to watch the making of modern pieces of art such as silk painting,
+        tapestry, felting, etc.
+        The exhibition of the House of Craftsmen displays the national costumes of Lejaskurzeme counties,
+        some of which are more than a century old, Latvian longest amber string of beads, artworks
+        of local craftsmen and ancient tools used by our ancestors – craftsmen.</string>
+    <string name="peter_market">The Peter Market</string>
+    <string name="peter_market_description">The Peter Market is located on Kurshu square
+        (Kuršu laukums) and still is the largest market in the city. The pavilion of the market was
+        opened in 1910. It was designed by the architect Melvil. The pavilion had an innovative
+        shape for those times.</string>
+    <string name="occupation_museum">Museum Liepāja during the Occupation Regimes</string>
+    <string name="occupation_museum_description">Permanent display tells about social, political,
+        economic and cultural life in Liepāja and its region during German and Soviet occupation in
+        1939-1991 and how the freedom of Latvia was regained in 1991. The house also hosts Jānis
+        Lādītis’s photo collection exposition. Themed exhibitions of the museum’s collection and art
+        displays are also organized here.</string>
+    <string name="liepaja_museum">Liepaja Museum</string>
+    <string name="liepaja_museum_description">The Liepāja Museum resides in one of the most beautiful 20th
+        century buildings in Liepāja. The museum exhibition tells the history of the Liepāja City
+        and its surrounding area from the Stone Age to the early 20th century. The museum also has
+        on display an exposition dedicated to a wood carver Miķelis Pankoks (1894-1983) and two
+        exhibition halls.</string>
     <!-- Dining -->
 
 
