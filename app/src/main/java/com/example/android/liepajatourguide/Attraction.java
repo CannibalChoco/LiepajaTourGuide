@@ -8,20 +8,31 @@ import static android.R.attr.name;
  */
 
 public class Attraction {
-    private String name;
-    private String description;
+    private int nameResourceId;
+    private int descriptionResourceId;
+    int NO_IMAGE_PROVIDED = -1;
+    int imageResourceId = NO_IMAGE_PROVIDED;
 
-
-    public Attraction (String name, String description){
-        this.name = name;
-        this.description = description;
+    public Attraction (int nameResourceId, int descriptionResourceId, int imageResourceId){
+        this.nameResourceId = nameResourceId;
+        this.descriptionResourceId = descriptionResourceId;
+        this.imageResourceId = imageResourceId;
     }
 
+    public int getNameResourceId() {
+        return nameResourceId;
+    }
 
-    public String getName(){
-        return name;}
+    public int getDescriptionResourceId() {
+        return descriptionResourceId;
+    }
 
-    public String getDescription(){
-        return description;}
+    public int getImageResourceId() {
+        return imageResourceId;
+    }
+
+    public boolean hasImage(){
+        return imageResourceId != NO_IMAGE_PROVIDED;
+    }
 
 }

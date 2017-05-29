@@ -8,22 +8,49 @@
 
     <!-- Active Leisure -->
     <string name="tarzan">Tarzan\'s Obstacle Park</string>
-    <string name="tarzan_description">Tarzan\'s Obstacle Park consists of 5 tracks and 76 different obstacles placed in trees up to 15 meters above the ground.
-        \It will be interesting for both children and adults, since the tracks are tailored to different interests.</string>
-    <string name="karosta_prison">Beberlini</string>
-    <string name="karosta_prison_description"></string>
+    <string name="tarzan_description">Tarzan\'s Obstacle Park consists of 5 tracks and 76 different
+        obstacles placed in trees up to 15 meters above the ground. It will be interesting for both
+        children and adults, since the tracks are tailored to different interests.</string>
+    <string name="karosta_prison">Karosta Prison</string>
+    <string name="karosta_prison_description">Offers guided tours in Karosta Prison and museum, show
+        "Behind Bars", accommodation and Extreme Night in prison. Different activities in Northern
+         Forts like guided tour, Spy game Escape from USSR and Labyrinth of Senses.</string>
+    <string name="children_playground">Children Playground</string>
+    <string name="children_playground_description">Every Sunday from June 1st till September 1st at
+        midday 12:00 leisure activities, puppet theatre or cirkus performances for children.</string>
+    <string name="archery_range">"Archery Liepaja" 3D archery range</string>
+    <string name="arechery_range_description">There are up to 20 different 3D animal targets in the
+        3D archery range, which are placed so that anyone would be able to shoot.</string>
+    <string name="windsurfing_club">Windsurfing Club "Rietumkrasts"</string>
+    <string name="windsurfing_club_description">Recreation on the water - windsurfing, kite-surfing,
+        water-skiing, bladders, water-motorbikes, motorboats. Rentals and lessons. Portable kitchen,
+        sauna, tent places.</string>
+    <string name="bb_wakepark">Active Leisure Park "BB wakepark"</string>
+    <string name="bb_wakepark_description">In summer, "BB wakepark" has the variety of offers as
+        wakeboarding track and equipment rentals, SUP board and boats rental, and for the full
+        relaxation, sauna and hot-tub services.</string>
+    <string name="boat_rental">Boat rental "Niknās laivas"</string>
+    <string name="boat_rental_description">Furious and comfortable boat rental for trips in Liepāja
+        Trade Canal and Lake, as well as in rivers of Kurzeme.</string>
+    <string name="quest_house">Quest House</string>
+    <string name="quest_house_description">Quest House – is a unique adventure – offers you an
+        interesting team game for groups of 2-4 people. You get locked in a room, in  order to
+        escape you should examine all hides, using hints and clues solve all riddles, applying your
+        logics and savvy.</string>
+    <string name="ship_and_catamaran_rent">Ship Četri vēji and catamaran rent</string>
+    <string name="ship_and_catamaran_rent_description">Boat trips in Liepāja port area and the sea.
+        Boarding at the yacht port in Liepāja promenade. Fishing in the sea and long boat trips.</string>
 
 
     <!-- Classics -->
-
-
-
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
     <!-- Nature -->
 
 
-
     <!-- Dining -->
-
 
 
     <!-- Hotels -->

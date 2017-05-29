@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -13,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        TextView classicsView = (TextView) findViewById(R.id.category_classics);
+        ImageView classicsView = (ImageView) findViewById(R.id.category_classics);
         classicsView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -22,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        TextView activeLeisureView = (TextView) findViewById(R.id.category_active_leisure);
+        ImageView activeLeisureView = (ImageView) findViewById(R.id.category_active_leisure);
         activeLeisureView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -31,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        TextView natureView = (TextView) findViewById(R.id.category_nature);
+        ImageView natureView = (ImageView) findViewById(R.id.category_nature);
         natureView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -40,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        TextView hotelsView = (TextView) findViewById(R.id.category_hotels);
+        ImageView hotelsView = (ImageView) findViewById(R.id.category_hotels);
         hotelsView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -49,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        TextView diningView = (TextView) findViewById(R.id.category_dining);
+        ImageView diningView = (ImageView) findViewById(R.id.category_dining);
         diningView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

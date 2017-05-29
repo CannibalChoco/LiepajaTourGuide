@@ -15,37 +15,34 @@
         android:layout_weight="1"
         android:orientation="horizontal">
 
-        <TextView
+        <ImageView
             android:id="@+id/category_classics"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginRight="@dimen/main_layout_item_border"
             android:layout_weight="5"
-            android:background="@color/colorPrimary"
-            android:gravity="center"
-            android:text="@string/category_classics"
+            android:src="@drawable/classics"
+            android:scaleType="centerCrop"
             android:textSize="30sp" />
 
-        <TextView
+        <ImageView
             android:id="@+id/category_active_leisure"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="6"
-            android:background="@color/colorPrimary"
-            android:gravity="center"
-            android:text="@string/category_active_leisure"
+            android:src="@drawable/active_leisure"
+            android:scaleType="centerCrop"
             android:textSize="30sp" />
     </LinearLayout>
 
-    <TextView
+    <ImageView
         android:id="@+id/category_nature"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginBottom="@dimen/main_layout_item_border"
         android:layout_weight="1"
-        android:background="@color/colorPrimary"
-        android:gravity="center"
-        android:text="@string/category_nature"
+        android:src="@drawable/nature"
+        android:scaleType="centerCrop"
         android:textSize="40sp" />
 
     <LinearLayout
@@ -54,29 +51,26 @@
         android:layout_weight="1"
         android:orientation="horizontal">
 
-        <TextView
+        <ImageView
             android:id="@+id/category_hotels"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="6"
-            android:background="@color/colorPrimary"
-            android:gravity="center"
-            android:text="@string/category_hotels"
+            android:src="@drawable/hotel"
+            android:scaleType="centerCrop"
             android:textSize="30sp" />
 
-        <TextView
+        <ImageView
             android:id="@+id/category_dining"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginLeft="@dimen/main_layout_item_border"
             android:layout_weight="5"
-            android:background="@color/colorPrimary"
-            android:gravity="center"
-            android:text="@string/category_dining"
+            android:src="@drawable/dining"
+            android:scaleType="centerCrop"
             android:textSize="30sp" />
 
     </LinearLayout>
-
 </LinearLayout>
 
 
