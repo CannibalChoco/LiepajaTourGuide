@@ -7,8 +7,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
-import android.widget.TextView;
-
 import java.util.ArrayList;
 
 /**
@@ -21,15 +19,12 @@ public class ActiveLeisureFragment extends Fragment {
         // Required empty public constructor
     }
 
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.list, container, false);
 
-    /**
-     * Create a list of attractions in Active Leisure category
-     */
+        // Create a list of attractions in Active Leisure category
         final ArrayList<Attraction> attractions = new ArrayList<Attraction>();
         attractions.add(new Attraction(R.string.tarzan, R.string.tarzan_description,
                 R.drawable.tarzan));
@@ -50,10 +45,13 @@ public class ActiveLeisureFragment extends Fragment {
         attractions.add(new Attraction(R.string.ship_and_catamaran_rent,
                 R.string.ship_and_catamaran_rent_description, R.drawable.cetri_veji));
 
+
+        // set the adapter on listview
         AttractionAdapter adapter = new AttractionAdapter(getActivity(), attractions);
         ListView listView = (ListView) rootView.findViewById(R.id.list);
         listView.setAdapter(adapter);
 
         return rootView;
     }
+
 }
