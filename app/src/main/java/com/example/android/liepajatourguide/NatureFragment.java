@@ -9,8 +9,6 @@ import android.view.ViewGroup;
 import android.widget.ListView;
 import java.util.ArrayList;
 
-import static android.R.attr.category;
-
 /**
  * A simple {@link Fragment} subclass.
  */
