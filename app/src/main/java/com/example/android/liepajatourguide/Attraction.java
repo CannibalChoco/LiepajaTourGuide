@@ -10,8 +10,7 @@ import static android.R.attr.name;
 public class Attraction {
     private int nameResourceId;
     private int descriptionResourceId;
-    int NO_IMAGE_PROVIDED = -1;
-    int imageResourceId = NO_IMAGE_PROVIDED;
+    int imageResourceId;
 
     public Attraction (int nameResourceId, int descriptionResourceId, int imageResourceId){
         this.nameResourceId = nameResourceId;
@@ -30,9 +29,4 @@ public class Attraction {
     public int getImageResourceId() {
         return imageResourceId;
     }
-
-    public boolean hasImage(){
-        return imageResourceId != NO_IMAGE_PROVIDED;
-    }
-
 }

@@ -1,6 +1,7 @@
 package com.example.android.liepajatourguide;
 
 import android.content.Intent;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -12,51 +13,16 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        // Set the content of the activity to use the activity_main.xml layout file
         setContentView(R.layout.activity_main);
 
-        ImageView classicsView = (ImageView) findViewById(R.id.category_classics);
-        classicsView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent classicsIntent = new Intent(MainActivity.this, ClassicsActivity.class);
-                startActivity(classicsIntent);
-            }
-        });
+        // Find the view pager that will allow the user to swipe between fragments
+        ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
 
-        ImageView activeLeisureView = (ImageView) findViewById(R.id.category_active_leisure);
-        activeLeisureView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent activeLeisureIntent = new Intent(MainActivity.this, ActiveLeisureActivity.class);
-                startActivity(activeLeisureIntent);
-            }
-        });
+        // Create an adapter that knows which fragment should be shown on each page
+        SimpleFragmentPagerAdapter adapter = new SimpleFragmentPagerAdapter(this, getSupportFragmentManager());
 
-        ImageView natureView = (ImageView) findViewById(R.id.category_nature);
-        natureView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent natureIntent = new Intent(MainActivity.this, NatureActivity.class);
-                startActivity(natureIntent);
-            }
-        });
-
-        ImageView hotelsView = (ImageView) findViewById(R.id.category_hotels);
-        hotelsView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent hotelsIntent = new Intent(MainActivity.this, HotelsActivity.class);
-                startActivity(hotelsIntent);
-            }
-        });
-
-        ImageView diningView = (ImageView) findViewById(R.id.category_dining);
-        diningView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent diningIntent = new Intent(MainActivity.this, DiningActivity.class);
-                startActivity(diningIntent);
-            }
-        });
+        // Set the adapter onto the view pager
+        viewPager.setAdapter(adapter);
      }
 }

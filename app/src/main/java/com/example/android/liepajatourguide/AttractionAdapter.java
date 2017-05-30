@@ -39,12 +39,8 @@ public class AttractionAdapter extends ArrayAdapter {
         TextView description = (TextView) listItemView.findViewById(R.id.description);
         description.setText(currentAttraction.getDescriptionResourceId());
 
-        // Find the ImageView in the list_item.xml laypout with the ID image
-        ImageView iconView = (ImageView) listItemView.findViewById(R.id.thumbnail);
-        if(currentAttraction.hasImage()){
-            // Get the image from the currentWord object and set this image on the ImageView
-            iconView.setImageResource(currentAttraction.getImageResourceId());
-        }
+        ImageView image = (ImageView) listItemView.findViewById(R.id.image);
+        image.setImageResource(currentAttraction.getImageResourceId());
 
         return listItemView;
     }

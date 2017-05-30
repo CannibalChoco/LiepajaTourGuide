@@ -6,43 +6,13 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-/**
- * Created by Emils on 25.05.2017.
- */
-
 public class ClassicsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.list);
+        setContentView(R.layout.activity_category);
 
-        /**
-         * Create a list of attractions in Active Leisure category
-         */
-        final ArrayList<Attraction> attractions = new ArrayList<Attraction>();
-        attractions.add(new Attraction(R.string.great_amber, R.string.great_amber_description,
-                R.drawable.great_amber));
-        attractions.add(new Attraction(R.string.musicians_alley, R.string.great_amber_description,
-                R.drawable.musicians_alley));
-        attractions.add(new Attraction(R.string.rose_square, R.string.rose_square_description,
-                R.drawable.rose_square));
-        attractions.add(new Attraction(R.string.anthem_characters, R.string.anthem_characters_description,
-                R.drawable.anthem_characters));
-        attractions.add(new Attraction(R.string.applied_arts_center, R.string.applied_arts_center_description,
-                R.drawable.applied_atrs));
-        attractions.add(new Attraction(R.string.house_of_craftsmen, R.string.house_of_craftsmen_description,
-                R.drawable.house_of_craftsmen));
-        attractions.add(new Attraction(R.string.peter_market, R.string.peter_market_description,
-                R.drawable.peters_market));
-        attractions.add(new Attraction(R.string.occupation_museum, R.string.occupation_museum_description,
-                R.drawable.occupation_museum));
-        attractions.add(new Attraction(R.string.liepaja_museum, R.string.liepaja_museum_description,
-                R.drawable.liepaja_museum));
-
-
-        AttractionAdapter adapter = new AttractionAdapter(this, attractions);
-        ListView listView = (ListView) findViewById(R.id.list);
-        listView.setAdapter(adapter);
+        getSupportFragmentManager().beginTransaction()
+                .replace(R.id.container, new ClassicsFragment()).commit();
     }
-
 }

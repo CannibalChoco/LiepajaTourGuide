@@ -127,7 +127,6 @@
         on display an exposition dedicated to a wood carver Miķelis Pankoks (1894-1983) and two
         exhibition halls.</string>
 
-
     <!-- Dining -->
     <string name="reastaurant_piano">Piano</string>
     <string name="reastaurant_piano_description">The award-winning hotel restaurant Piano offers
@@ -167,7 +166,6 @@
         from cold snack and salads, meat and fish courses, pastas, pizzas, and also a variety of
         sushi. Kids menu is available as well. Open type kitchen gives you theclose insight into
         the process of cooking and the professional work of our chefs’ team.</string>
-
 
     <!-- Hotels -->
     <string name="promenade_hotel">Promenade Hotel</string>
@@ -218,5 +216,8 @@
         You will be enchanted by the decor of each of the rooms in Ezera Maja. Even the tiniest detail
         has been made with the special love of an artist’s hand. The rooms are equipped using natural
         local materials, keeping the ancient feel of the house.</string>
-    
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>
