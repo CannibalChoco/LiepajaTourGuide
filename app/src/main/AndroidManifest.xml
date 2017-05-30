@@ -15,21 +15,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".ClassicsActivity"
-            android:label="@string/category_classics" />
-        <activity
-            android:name=".ActiveLeisureActivity"
-            android:label="@string/category_active_leisure" />
-        <activity
-            android:name=".NatureActivity"
-            android:label="@string/category_nature" />
-        <activity
-            android:name=".DiningActivity"
-            android:label="@string/category_dining" />
-        <activity
-            android:name=".HotelsActivity"
-            android:label="@string/category_hotels" />
     </application>
 
 </manifest>
