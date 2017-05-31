@@ -1,16 +1,17 @@
 package com.example.android.liepajatourguide;
 
 import android.app.Activity;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.support.v7.widget.RecyclerView.ViewHolder;
 
 import java.util.ArrayList;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
 
 public class AttractionAdapter extends ArrayAdapter {
 
@@ -25,14 +26,11 @@ public class AttractionAdapter extends ArrayAdapter {
         ViewHolder holder; // to reference the child views for later actions
 
         if (listItemView == null) {
-            listItemView = LayoutInflater.from(getContext()).inflate(
-                    R.layout.list_item, parent, false);
+            listItemView = LayoutInflater.from(getContext()).inflate
+                    (R.layout.list_item, parent, false);
 
             // cache view fields into the holder
-            holder = new ViewHolder();
-            holder.name = (TextView) listItemView.findViewById(R.id.name);
-            holder.description = (TextView) listItemView.findViewById(R.id.description);
-            holder.image = (ImageView) listItemView.findViewById(R.id.image);
+            holder = new ViewHolder(listItemView);
             listItemView.setTag(holder);
         }else{
             holder = (ViewHolder) listItemView.getTag();
@@ -48,8 +46,12 @@ public class AttractionAdapter extends ArrayAdapter {
     }
 
     static class ViewHolder {
-        TextView name;
-        TextView description;
-        ImageView image;
+        @BindView(R.id.name) TextView name;
+        @BindView(R.id.description) TextView description;
+        @BindView(R.id.image) ImageView image;
+
+        public ViewHolder(View view) {
+            ButterKnife.bind(this, view);
+        }
     }
 }
